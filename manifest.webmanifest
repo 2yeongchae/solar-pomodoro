@@ -1,6 +1,6 @@
 {
-  "name": "태양계 뽀모도로",
-  "short_name": "태양계",
+  "name": "Solar Pomodoro",
+  "short_name": "Solar",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

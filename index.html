@@ -12,6 +12,9 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="icon" href="icon-192.png">
 <title>태양계 뽀모도로</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap">
 <style>
 /* 레이아웃: 폰 세로 한 화면. 위 10% 상단바 / 중앙 65% 태양계 스테이지 / 아래 25% 정보와 조작 */
 :root {
@@ -23,7 +26,7 @@
   --ring: rgba(255,255,255,.78);
   --btn: #e9e9eb;
   --btn-ink: #0a0a0a;
-  --font: -apple-system, "SF Pro Display", "SF Pro Text", "Helvetica Neue", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+  --font: "Inter", -apple-system, "SF Pro Display", "SF Pro Text", "Helvetica Neue", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
   color-scheme: dark;
 }
 html, body { height: 100%; background: var(--bg); color: var(--fg); }
@@ -87,6 +90,7 @@ button:focus-visible, input:focus-visible { outline: 2px solid rgba(255,255,255,
 html { box-sizing: border-box; padding: env(safe-area-inset-top, 0px) 0 env(safe-area-inset-bottom, 0px); }
 body { margin: 0; }
 [hidden] { display: none !important; }
+.preview { display: none !important; }
 </style>
 </head>
 <body>
